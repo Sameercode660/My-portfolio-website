@@ -13,7 +13,7 @@ function Home() {
           <h2 className="text-2xl stroke-yellow-300">I am a Full Stack web Developer</h2>
           <p className="text-justify">My name is Mohd Sameer, currently i am pursuing my graduation <br /> and also i am a mern stack web developer, fascinated for developing <br></br> good web application</p>
           <div>
-            <button>Resume</button>
+            <button className="w-[130px] p-2 border-2 border-cyan-400 rounded-md transition-all hover:bg-cyan-400">Resume</button>
           </div>
         </div>
         <div>
