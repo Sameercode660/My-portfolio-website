@@ -19,9 +19,9 @@ function App() {
           <Link className="text-lg font-bold text-gray-300 hover:text-sky-400" to={"/Projects"}>
             <span>Projects</span>
           </Link>
-          <Link className="text-lg font-bold text-gray-300 hover:text-sky-400" to={"/About"}>
+          {/* <Link className="text-lg font-bold text-gray-300 hover:text-sky-400" to={"/About"}>
             <span>About</span>
-          </Link>
+          </Link> */}
           <Link className="text-lg font-bold text-gray-300 hover:text-sky-400" to={"/contact"}>
             <span>Contact Me</span>
           </Link>
