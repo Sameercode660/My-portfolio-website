@@ -21,7 +21,7 @@ function Home() {
           <img style={{
             color: 'cyan',
             boxShadow: '0 0 5px cyan, 0 0 10px cyan, 0 0 15px cyan, 0 0 20px cyan, 0 0 30px cyan, 0 0 40px cyan, 0 0 50px cyan, 0 0 75px cyan'
-          }} className="w-[200px] h-[200px] border-2 rounded-full object-cover" src={logo}  alt="" />
+          }} className=" w-[400px] h-[400px]  max-sm:w-[200px] max-sm:h-[200px] border-2 rounded-full object-cover" src={logo}  alt="" />
         </div>
       </div>
 

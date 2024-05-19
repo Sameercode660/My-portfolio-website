@@ -67,24 +67,28 @@ function App() {
           <Link
             className="text-lg font-bold text-gray-300 hover:text-sky-400 w-full p-2 grid place-items-center m-1"
             to={"/"}
+            onClick={handleOpenCloseNavigation}
           >
             <span>Home</span>
           </Link>
           <Link
             className="text-lg font-bold text-gray-300 hover:text-sky-400 w-full p-2 grid place-items-center m-1"
             to={"/skills"}
+            onClick={handleOpenCloseNavigation}
           >
             <span>Skills</span>
           </Link>
           <Link
             className="text-lg font-bold text-gray-300 hover:text-sky-400 w-full  p-2 grid place-items-center m-1"
             to={"/Projects"}
+            onClick={handleOpenCloseNavigation}
           >
             <span>Projects</span>
           </Link>
           <Link
             className="text-lg font-bold text-gray-300 hover:text-sky-400 w-full p-2 grid place-items-center m-1"
             to={"/contact"}
+            onClick={handleOpenCloseNavigation}
           >
             <span>Contact Me</span>
           </Link>
