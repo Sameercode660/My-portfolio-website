@@ -84,9 +84,6 @@ function App() {
         >
           <span>Projects</span>
         </Link>
-        {/* <Link className="text-lg font-bold text-gray-300 hover:text-sky-400" to={"/About"}>
-            <span>About</span>
-            </Link> */}
         <Link
           className="text-lg font-bold text-gray-300 hover:text-sky-400 w-full border-2 border-red-500 p-2 grid place-items-center m-1"
           to={"/contact"}
