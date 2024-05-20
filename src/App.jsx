@@ -19,7 +19,7 @@ function App() {
               Sameer's Portfolio
             </h1>
           </div>
-          <div className="max-sm:hidden flex justify-center items-center space-x-10">
+          <div className="max-sm:hidden max-md:hidden max-lg:hidden flex justify-center items-center space-x-10">
             <Link
               className="text-lg font-bold text-gray-300 hover:text-sky-400"
               to={"/"}
@@ -46,19 +46,19 @@ function App() {
             </Link>
           </div>
           <div
-            className="sm:hidden max-sm:grid place-items-center w-[2.5rem] "
+            className="lg:hidden max-sm:grid place-items-center w-[2.5rem] "
             onClick={handleOpenCloseNavigation}
           >
-            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-bars max-lg:text-[30px]"></i>
           </div>
         </div>
       </div>
       <div className="w-full h-full">
         <Outlet></Outlet>
       </div>
-
+    {/* responsive menu  */}
       <div
-        className={` sm:hidden w-[70%] h-[100vh] fixed z-100 top-0 ${
+        className={` lg:hidden  w-[70%] h-[100vh] fixed z-100 top-0 ${
           position ? "left-0" : "left-[-70%]"
         } right-0 bottom-0 flex flex-col items-center gap-3 transition-all ease-in duration-500`}
         style={{ backgroundColor: "rgba(0,0,0,0.5)" }}
