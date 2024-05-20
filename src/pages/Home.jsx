@@ -14,7 +14,7 @@ function Home() {
           <p className="max-sm:hidden text-justify">My name is Mohd Sameer, currently i am pursuing my graduation <br /> and also i am a mern stack web developer, fascinated for developing <br></br> good web application</p>
           <p className="sm:hidden text-justify max-sm:font-semibold m-5">My name is Mohd Sameer, currently i am pursuing my graduation and also i am a mern stack web developer, fascinated for developing good web application</p>
           <div>
-            <button className="w-[130px] p-2 border-2 border-cyan-400 rounded-md transition-all hover:bg-cyan-400">Resume</button>
+            <a href="https://drive.google.com/file/d/1tr3SSGK0PRQZzp0M_xTLt14IoR0BrpXX/view?usp=drive_link" target="_blank" className=" grid place-items-center w-[130px] p-2 border-2 border-cyan-400 rounded-md transition-all hover:bg-cyan-400">Resume</a>
           </div>
         </div>
         <div>
