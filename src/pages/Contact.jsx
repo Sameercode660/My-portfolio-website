@@ -23,7 +23,7 @@ function Contact() {
   
   ]
   return (
-    <div className='flex justify-center items-center flex-wrap h-[90dvh]'>
+    <div className='flex justify-center items-center flex-wrap h-[90dvh] max-sm:w-full max-sm:h-[90dvh] max-sm:grid max-sm:grid-cols-2 max-sm:place-items-center'>
       {
         contactData.map((data) => (
           <ContactCard

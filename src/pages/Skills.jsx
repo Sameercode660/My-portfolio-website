@@ -2,11 +2,13 @@ import React from "react";
 
 function Skills() {
   return (
-    <div className="w-full h-[93dvh] flex justify-center items-center flex-col flex-wrap">
-      <div>
+    <div className="w-full h-[93dvh] flex justify-center items-center flex-col flex-wrap max-sm:h-full max-sm:text-center" style={{
+      backgroundColor: '#1f2937'
+    }}>
+      <div className="max-sm:w-full" >
         <h1 className="text-[30px] font-semibold text-gray-300">Skills</h1>
       </div>
-      <div className="flex flex-wrap">
+      <div className="flex flex-wrap max-sm:w-full max-sm:justify-center">
         <div className="w-[200px] border-cyan-400 border-2 rounded h-[300px] m-2 p-4 flex flex-col justify-start items-center space-y-2">
           <div>
             <h1 className="text-[25px] font-semibold text-gray-300 font-serif">
